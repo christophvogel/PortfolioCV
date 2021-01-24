@@ -43,3 +43,32 @@ $font-family-base: "Raleway", sans-serif;
 .main {
   font-family: "Raleway", sans-serif;
 }
+
+.skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.skill-item {
+  margin: 5px;
+}
+
+.about-me {
+  padding: 30px;
+}
+
+.resume__list {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 100px;
+}
+.resume__bold {
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 0 -1.5px 2px;
+}
