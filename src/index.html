@@ -7,19 +7,121 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="shortcut icon" href="public/favicon.ico" />
-    <title>Hello, world!</title>
+    <title class="bold">CHRISTOPH VOGEL</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
   </head>
+
   <body>
+    <section class="main-header__container">
+      <header class="main-header">
+        <h1>
+          <span class="badge rounded-pill bg-dark">CHRISTOPH VOGEL</span>
+        </h1>
+        <nav class="main-header-nav">
+          <a href="#bio" style="text-decoration: none">ABOUT ME</a>
+          <a href="#contact" style="text-decoration: none">CONTACT</a>
+          <a href="#resume" style="text-decoration: none">RESUME</a>
+        </nav>
+      </header>
+    </section>
     <main class="pt-5 text-center">
       <img
         class="img-thumbnail rounded-circle bg-light"
-        src="public/cat.png"
-        alt="Professor Meow"
+        src="public/cv.jpg"
+        alt="Christoph Vogel"
+        width="300"
+        height="300"
       />
       <p class="mt-3">
-        Greetings <span class="text-primary">students</span>! It smells like
-        <span class="fancy">new fishes</span> 🐟 in here.
+        Moin! Ich bin <span class="bold">Christoph Vogel</span>.<br />Ein
+        angehender Web Developer aus Hamburg.
       </p>
+
+      <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li class="badge bg-primary skill-item">HTML</li>
+          <li class="badge bg-primary skill-item">CSS</li>
+          <li class="badge bg-primary skill-item">JavaScript</li>
+          <li class="badge bg-primary skill-item">Git</li>
+          <li class="badge bg-primary skill-item">Github</li>
+          <li class="badge bg-primary skill-item">MS Office</li>
+          <li class="badge bg-primary skill-item">Photoshop</li>
+          <li class="badge bg-primary skill-item">Premiere</li>
+          <li class="badge bg-primary skill-item">TYPO3</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Sprachen</h2>
+        <ul class="skills">
+          <li class="badge bg-primary skill-item">Deutsch</li>
+
+          <li class="badge bg-primary skill-item">Englisch</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Interessen</h2>
+        <ul class="skills">
+          <li class="badge bg-primary skill-item">Konzerte</li>
+          <li class="badge bg-primary skill-item">Vinyl</li>
+          <li class="badge bg-primary skill-item">Filme</li>
+          <li class="badge bg-primary skill-item">Wandern</li>
+        </ul>
+      </section>
+
+      <section id="bio"><h2 class="navpoint">ABOUT ME</h2></section>
+      <p class="about-me">
+        Ich bin ein junger, naturverbundener Hamburger mit großer Liebe und
+        Leidenschaft für Film, Musik und Kultur. Studiert habe ich Medien und
+        Information an der HAW Hamburg mit anschließender Weiterbildung zum
+        'Visual Designer'. Hier machte ich erste Erfahrungen mit Webdesign,
+        welche ich nun bei Neue Fische vertiefen und veredeln möchte, um
+        beruflich als Web Developer durchzustarten.
+      </p>
+      <section id="contact"><h2 class="navpoint">CONTACT</h2></section>
+      <p>
+        <a href="https://github.com/christophvogel" target="_blank"
+          ><img src="./public/github.svg" alt="Github" width="40" height="40"
+        /></a>
+        <a href="https://www.xing.com/profile/Christoph_Vogel44" target="_blank"
+          ><img src="./public/xing.svg" alt="Xing" width="40" height="40"
+        /></a>
+        <a href="https://t.me/CBoerd" target="_blank"
+          ><img src="./public/tele.png" alt="Telegram" width="40" height="40"
+        /></a>
+      </p>
+      <section id="resume" class="resume">
+        <h2 class="navpoint">RESUME</h2>
+        <ul class="resume__list">
+          <li>
+            <span class="resume__bold"
+              >Januar 2021 - April 2021<br />
+              neueFische GmbH</span
+            ><br />Trainee Web Development<br />
+          </li>
+          <br />
+          <li>
+            <span class="resume__bold"
+              >Januar 2020 - Mai 2020<br />
+              alfatraining Bildungszentrum Hamburg</span
+            ><br />Trainee 'Visual Designer'<br />
+            Webdesign (HTML5, CSS3, JavaScript), Adobe Photoshop,<br />
+            InDesign, Premiere und After Effects
+          </li>
+          <br />
+          <li>
+            <span class="resume__bold"
+              >September 2014 - August 2019<br />
+              Bachelor Studiengang „Medien und Information“ HAW Hamburg</span
+            ><br />
+            Schwerpunktsetzung in Produktion von Foto-, Audio- und
+            Videomaterial, Live-Streaming, <br />Analytics und Studienprojekt in
+            Social Media, Bloggen und Content Marketing
+            <ul></ul>
+          </li>
+        </ul>
+      </section>
     </main>
+    <footer class="footer">&copy; 2021 Christoph Vogel</footer>
   </body>
 </html>

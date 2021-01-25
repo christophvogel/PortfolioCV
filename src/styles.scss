@@ -1,10 +1,10 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 $body-bg: #ddd;
 $body-color: #222;
-$primary: hotpink;
-$font-family-base: Arial;
+$primary: rgb(0, 0, 0);
+$font-family-base: "Raleway", sans-serif;
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
@@ -22,4 +22,56 @@ $font-family-base: Arial;
   );
   color: #fff;
   padding: 0.5em;
+}
+
+.main-header {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main-header-nav a {
+  color: #222;
+  width: 100%;
+}
+.main-header-nav {
+  display: flex;
+}
+.main {
+  font-family: "Raleway", sans-serif;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.skill-item {
+  margin: 5px;
+}
+
+.about-me {
+  padding: 30px;
+}
+
+.resume__list {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 100px;
+}
+.resume__bold {
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 0 -1.5px 2px;
+}
+.navpoint {
+  margin: 30px;
 }
